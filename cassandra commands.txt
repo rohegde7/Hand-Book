@@ -1,0 +1,26 @@
+sudo kill -9 9556
+ps -aux | grep 7199
+ps -a | grep 7199
+fuser 7000
+fuser tcp/7000
+
+
+
+describe:
+	cluster
+	keyspaces
+	tables
+	table
+
+CREATE keyspace k_name with replication = {class, replication_factor}
+ALTER
+DROP keyspace k_name
+
+CREATE TABLE t_name (column_name type)
+ALTER TABLE t_name ADD column_name type
+				   DROP column_name
+DROP TABLE t-name
+
+CREATE INDEX i_name on t_name(c_name)
+DROP INDEX i_name
+
