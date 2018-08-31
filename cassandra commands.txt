@@ -1,10 +1,4 @@
-sudo kill -9 9556
-ps -aux | grep 7199
-ps -a | grep 7199
-fuser 7000
-fuser tcp/7000
-
-
+ps aux | grep cassandra
 
 describe:
 	cluster
