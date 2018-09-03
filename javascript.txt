@@ -1,0 +1,4 @@
+getElementById:
+    document.getElementById('demo').style.display = 'none';     //disappears the element and rearranges the remaining elements
+    document.getElementById('demo').style.display = 'block';    //brings back the hidden element and places the button/or whatever below the element
+    document.getElementById("demo").style.fontSize = "35px";    //changes the font size
